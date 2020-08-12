@@ -17,28 +17,32 @@ The buttons
   width: 100px;
   text-align: center;
   border-radius:  15px 15px 0 0;
+  text-decoration: none;
 }
 .btn:hover{/* All buttons hover */
   background-color: #FFFFFF;
   color: #00171F;
 }
 .intro{/*button1 Introduction*/
-  height:60px;
+  height:25px;
   margin:40px 200px 0 500px;
+  padding: 35px 0 0 0;
   position: absolute;
   background-color: #0084B8;
   color: #FFFFFF;
 }
 .introSnd{/*button1 Introduction, second position*/
-  height:60px;
+  height:25px;
   margin:270px 200px 0 500px;
+  padding: 35px 0 0 0;
   position: absolute;
   background-color: #00171F;
   color: #FFFFFF;
 }
 .introTrd{/*button1 Introduction, third position*/
-  height:60px;
+  height:25px;
   margin:17px 200px 0 500px;
+  padding: 35px 0 0 0;
   position: absolute;
   background-color: #00171F;
   color: #FFFFFF;
@@ -52,22 +56,25 @@ The buttons
   color: #FFFFFF;
 }
 .about{/*button2 about*/
-  height:45px;
+  height:25px;
   margin: 55px 100px 0 600px;
+  padding: 20px 0 0 0;
   position: absolute;
   background-color: #00A8E8;
   color: #FFFFFF;
 }
 .aboutSnd{/*button2 about, second position*/
-  height:45px;
+  height:25px;
   margin: 285px 100px 0 600px;
+  padding: 20px 0 0 0;
   position: absolute;
   background-color: #00171F;
   color: #FFFFFF;
 }
 .aboutTrd{/*button2 about, third position*/
-  height:45px;
+  height:25px;
   margin: 32px 100px 0 600px;
+  padding: 20px 0 0 0;
   position: absolute;
   background-color: #00171F;
   color: #FFFFFF;
@@ -81,22 +88,25 @@ The buttons
   color: #FFFFFF;
 }
 .contact{/*button3 contact*/
-  height:30px;
+  height:25px;
   margin: 70px 0 0 700px;
+  padding: 5px 0 0 0;
   position: absolute;
   background-color: #33C5FF;
   color: #FFFFFF;
 }
 .contactSnd{/*button3 contact, second position*/
-  height:30px;
+  height:25px;
   margin: 300px 0 0 700px;
+  padding: 5px 0 0 0;
   position: absolute;
   background-color: #00171F;
   color: #FFFFFF;
 }
 .contactTrd{/*button3 contact, third position*/
-  height:30px;
+  height:25px;
   margin: 47px 0 0 700px;
+  padding: 5px 0 0 0;
   position: absolute;
   background-color: #00171F;
   color: #FFFFFF;

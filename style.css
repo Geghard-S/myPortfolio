@@ -259,3 +259,26 @@ body footer{
   position: absolute;
   color: #FFFFFF;
 }
+/*
+
+404 page
+
+*/
+.link{
+  text-decoration: none;
+}
+.link{
+  color:white;
+}
+.link:visited{
+  color:orange;
+}
+.link:hover{
+  color:blue;
+}
+.link:active{
+  color: yellow;
+}
+.textNotFound{
+  color:white;
+}

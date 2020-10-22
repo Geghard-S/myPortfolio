@@ -1,275 +1,329 @@
 body{
-  height: 2100px!important;
+  margin:auto;
+  width: 100%;
+  height: 100%;
   background-image:linear-gradient(0deg,#003459,#00171F);
 }
-header{
-  width: 800px;
-  height: 100px;
-  margin: auto;
-  position: relative;
-}
 /*
 
-The buttons
+End of body
+-----------------------
+start of nav section
 
 */
-.btn{
-  width: 100px;
-  text-align: center;
-  border-radius:  15px 15px 0 0;
-  text-decoration: none;
-}
-.btn:hover{/* All buttons hover */
-  background-color: #FFFFFF;
-  color: #00171F;
-}
-.intro{/*button1 Introduction*/
-  height:25px;
-  margin:40px 200px 0 500px;
-  padding: 35px 0 0 0;
-  position: absolute;
-  background-color: #0084B8;
-  color: #FFFFFF;
-}
-.introSnd{/*button1 Introduction, second position*/
-  height:25px;
-  margin:270px 200px 0 500px;
-  padding: 35px 0 0 0;
-  position: absolute;
-  background-color: #00171F;
-  color: #FFFFFF;
-}
-.introTrd{/*button1 Introduction, third position*/
-  height:25px;
-  margin:17px 200px 0 500px;
-  padding: 35px 0 0 0;
-  position: absolute;
-  background-color: #00171F;
-  color: #FFFFFF;
-}
-.intro:active{/*button1 Introduction, active*/
-  background-color: #00171F;
-  color: #FFFFFF;
-}
-.introSnd:active,.introTrd:active{ /*button1 Introduction, second and third position, active*/
-  background-color: #0084B8;
-  color: #FFFFFF;
-}
-.about{/*button2 about*/
-  height:25px;
-  margin: 55px 100px 0 600px;
-  padding: 20px 0 0 0;
-  position: absolute;
-  background-color: #00A8E8;
-  color: #FFFFFF;
-}
-.aboutSnd{/*button2 about, second position*/
-  height:25px;
-  margin: 285px 100px 0 600px;
-  padding: 20px 0 0 0;
-  position: absolute;
-  background-color: #00171F;
-  color: #FFFFFF;
-}
-.aboutTrd{/*button2 about, third position*/
-  height:25px;
-  margin: 32px 100px 0 600px;
-  padding: 20px 0 0 0;
-  position: absolute;
-  background-color: #00171F;
-  color: #FFFFFF;
-}
-.about:active{/*button2 about, active*/
-  background-color: #00171F;
-  color: #FFFFFF;
-}
-.aboutSnd:active,.aboutTrd:active{/*button2 about, second and third position, active*/
-  background-color: #00A8E8;
-  color: #FFFFFF;
-}
-.contact{/*button3 contact*/
-  height:25px;
-  margin: 70px 0 0 700px;
-  padding: 5px 0 0 0;
-  position: absolute;
-  background-color: #33C5FF;
-  color: #FFFFFF;
-}
-.contactSnd{/*button3 contact, second position*/
-  height:25px;
-  margin: 300px 0 0 700px;
-  padding: 5px 0 0 0;
-  position: absolute;
-  background-color: #00171F;
-  color: #FFFFFF;
-}
-.contactTrd{/*button3 contact, third position*/
-  height:25px;
-  margin: 47px 0 0 700px;
-  padding: 5px 0 0 0;
-  position: absolute;
-  background-color: #00171F;
-  color: #FFFFFF;
-}
-.contact:active{/*button3 contact, active*/
-  background-color: #00171F;
-  color: #FFFFFF;
-}
-.contactSnd:active,.contactTrd:active{/*button3 contact, second and third position, active*/
-  background-color: #33C5FF;
-  color: #FFFFFF;
-}
 
-/*
-
-The end of buttons
-
-*/
 #wrapper{
-  width: 800px;
-  height: 1950px;
-  margin: auto;
-  background-color:#FFFFFF;
-  
+  width: 100%;
+  margin-top: -39px;
 }
+
+header {
+  background-color: #000;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-family: monospace;
+  font-size: 35px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 3px 3px #00171F;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+  margin-right: 0;
+}
+
 /*
 
-introduction Section
+End of nav section
+-----------------------
+Start of body section
 
 */
-.myImageDiv{
-  width: 800px;
-  margin: auto;
-  box-sizing: border-box;
-  border: 20px solid #FFFFFF;
+
+main {
+  margin-top: 60px;
 }
-.backImage{
-  width: 100%;
-  background-image: url(images/hero-frontpage.jpg);
-  background-size: cover;
-}
-.myImage{
-  width: 40%;
-  height: 40%;
-  margin-left: 50%;
-  position: relative;
-  border-radius: 50%;
-  border: solid 2px #FFFFFF;
-}
-.backImage > p {
-  margin: 0 0 0 0;
-  padding: 105px 0 0 40px;
-  position: absolute;
-  font-family:monospace;
+
+#backImage p{
+  font-family: monospace;
   font-size: 40px;
   letter-spacing: 10px;
   text-transform: uppercase;
   color: #FFFFFF;
   text-shadow: 3px 3px #00171F;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
 }
+
+h2 {
+  margin: 18px 0 12px 0;
+  border-bottom: 1px solid #00171F;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 24px;
+}
+
+section>h2{
+  font-size: 1px;
+  border-bottom: 1px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
 h3{
-  margin: 0 0 0 0;
-  padding: 220px 0 0 100px;
-  position: absolute;
   font-family:monospace;
-  letter-spacing: 6px;
   color: #33C5FF;
   text-shadow: 0px 2px #FFFFFF;
 }
+
+main p {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0;
+}
+
+#wrapper{
+  background-color: #FFFFFF;
+}
+
+#backImage{
+  background-image: url(images/back.jpg);
+  background-size: cover;
+  height: 200px;
+}
+
+#locationText{
+  font-family:fantasy;
+  font-size: 200%;
+  font-display:unset;
+  padding: 15px;
+  
+}
+
+div p{
+  font-family: fantasy;
+  font-weight: bold;
+  padding: 0 5%;
+  width: 90%;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: #33C5FF;
+}
+
 /*
 
-The end of introduction
------------------
-Horizental lines
-
-*/
-hr{
-  height:100px;
-  box-sizing: border-box;
-  background-image: url(images/hl.png);
-}
-#topLine{
-  margin-top: 100px;
-  z-index: 1;
-}
-#bottomLine{
-  margin-top: 75px;
-  z-index: 1;
-}
-/*
-
-End of Horizental lines
------------------------
-Begining on intro + about text
-
-*/
-h1{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  letter-spacing: 2px;
-  text-align: right;
-  color:#00171F;
-}
-h2{
-  font-family: monospace;
-}
-article{
-  width: 500px;
-  margin: auto;
-  padding: 10px;
-}
-article>p{
-  font-size: 22px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color:#0084B8;
-  text-align: left;
-  word-wrap:break-word;
-}
-ol{
-  font-size: 20px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color:#003459;
-}
-/*
-
-End of intro + about text
------------------------
 Begining on contact section
 
 */
+
+#social{
+  padding: 0% 22% 0 22%;
+  margin: auto;
+}
+
 .contactInfo,.social{/*unordered lists*/
-  margin: 0 25% 0 25%;
   list-style:none;
 } 
+
 .icon{
   display: inline-block;
   padding: 10px;
 }
-.contactInfo > .icon{
-  margin-top: 50px;
+
+#social p{
+  text-align: center;
 }
-.social > .icon{
-  margin-top: 50px;
-}
+
 .text{ /*unordered list text*/
-  width: 800px;
   color:#0084B8;
   font-size: 18px;
-  text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  position: absolute;
 }
+
+label{
+  color:#0084B8;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.text{
+  font-weight: normal;
+  width: 100%;
+}
+
 /*
 
 End of contact section
+-----------------------
+footer
 
 */
+
 body footer{
   height: 50px;
-  margin: 0 35% 0 35%;
+  padding-top:20px;
   position: absolute;
   color: #FFFFFF;
 }
+
+
 /*
+
+End of Footer
+-----------------------
+Groups & Items  (Mobile First) 
+*/
+
+.bg-primary {
+  background-color: rgb(0,132,184, 0.3);
+}
+
+.group img {
+  width: 100%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+#gmap_canvas{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  border:0;
+}
+
+#contact2 input,#contact2 label,#contact2 textarea,#contact2 button{
+  width: 90%;
+  font-size: 18px;
+  margin: auto;
+  padding-left: 5%;
+}
+
+#contact2 label{
+  margin-left: 0;
+}
+
+#contact2 textarea{
+  height: 100px;
+}
+
+button{
+  background-color:#FFFFFF;
+}
+
+/*
+
+End of Groups & Items (mobile)
+-----------------------
+Groups & Items  (Desktop) 
+
+*/
+
+@media all and (min-width: 800px) {
+    body{
+      margin:auto;
+      height: 3000px!important;
+    }
+
+    #wrapper{
+      width: 800px;
+      margin:auto;
+      margin-top: -39px;
+    }
+
+    section {
+      padding: 0 ;
+    }
+
+    #backImage{
+      width: 800px;
+      height: 100px;
+    }
+
+    .group {
+      flex-direction: row;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 30px;
+    }
+
+    header h1 {
+      margin: 14px 0;
+      padding-top: 0;
+    }
+
+    header nav {
+      margin-top: 8px;
+    }
+
+    header nav ul li a:hover {
+      color: #bdbdbd;
+    }
+
+    h3{
+      padding: 10px 10px;
+    }
+
+    #gmap_canvas{
+      width: 450px;
+      height: 450px;
+      margin: auto;
+      border:0;
+    }
+
+    #contact2{
+      font-size: 18px;
+      padding: 0 280px 30px 280px;
+    }
+
+    button{
+      width: 250px;
+      background-color:#FFFFFF;
+    }
+  } 
+
+  /*
 
 404 page
 
@@ -277,18 +331,24 @@ body footer{
 .link{
   text-decoration: none;
 }
+
 .link{
   color:white;
 }
+
 .link:visited{
   color:orange;
 }
+
 .link:hover{
   color:blue;
 }
+
 .link:active{
   color: yellow;
 }
+
 .textNotFound{
   color:white;
 }
+

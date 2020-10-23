@@ -1,177 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Geghard's Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header>
-      <h1>Portfolio</h1>
-      <nav>
-        <ul id="menu">
-          <li><a href="#aboutMe">About Me</a></li>
-          <li><a href="#poject">Project</a></li>
-          <li><a href="#location">Location</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="buttons">
+        <a href="#wrapper" class="btn intro">
+          Introduction
+        </a>
+        <a href="#topLine" class="btn about">
+          About
+        </a>
+        <a href="#bottomLine" class="btn contact">
+          Contact
+        </a>
+      </div><!--div Buttons-->
     </header>
-
     <main id="wrapper">
-      <section id="aboutMe">
-      <!-- About Me Content Here -->
-        <div id="backImage">
-          <p>Geghard Simonian</p>
-        </div>
-        <h2>About Me</h2>
-        <section>
-          <div class="group">
-            <div class="item">
-              <h2>Hello there, I'm Geghard Simonian</h2>
-              <p>
-                You can find my contact information on contact section.
-              </p>
-              <p>
-                My passion for coding started when I was a teenager, and as I had to choose my major, it was clear to me what I would choose. Whereas my current major is computer information, I am looking forward to advance my previous knowledge and advance it toward a sustainable career.
-              </p>
-              <p>
-                I am an enthusiast programmer with vast knowledge, passion, and thrill to the coding. I also enjoy listening to and playing the guitar. I am currently attending guitar sessions as a part-time activity.
-              </p>
-              <img src="images/services.png" alt="services">
-              <p>
-                I will be offering full-stack web development services to all my clients; Front-end Web development such as web page design and jQuery, and back-end web development such as SQL and JavaScript.
-              </p>
-              <p>
-                As I push my career upwards as a great and successful programmer, my ambition is to meet high profiled programmers and work together for more excellent outputs and achievement. Working with different disparate levels of experience, knowledge, and expertise can propel my exposure to advanced practical concepts that I can hardly acquire independently.
-              </p>
-              <p>
-                I am a creative individual with a desirable passion for innovativeness. I have exhibited a higher affinity for transforming basic and imaginative concepts into practical output under limited constraints. Commitment and dedication to personal goals have always defined my success in various capacities and scopes. Furthermore, I believe in teamwork and have often served as a team player on numerous occasions, pitting me as a leader and an influencer.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section id="poject">
-          <!-- Project Content Here -->
-          <h2>Project</h2>
-          <div class="item group">
-            <h2>
-              My Projects
-            </h2>
-          </div>
-          <div class="group">
-            <section class="project">
-              <h3>Pizza</h3>
-                <div class="item">
-                <a href="https://geghard.github.io/pizza/" target="_top">
-                  <img src="images/p1.png" alt="Pizza Project">
-                </a>
-                <p>
-                  <a href="https://geghard.github.io/pizza/" target="_top">
-                    A single page minimal design.
-                  </a>
-                </p>
-              </div>
-            </section>
-            <section class="project">
-              <h3>Portfolio (Old Version)</h3>
-              <div class="item">
-                <a href="https://geghard.github.io/myPortfolio/" target="_top">
-                  <img src="images/p2.png" alt="project 3">
-                </a>
-                <p>
-                  <a href="https://geghard.github.io/myPortfolio/" target="_top">
-                  Responsive, single-page website design and coding, search optimization.
-                  </a>
-                </p>
-              </div>
-            </section>
-            <section class="project">
-              <h3>Quiz App</h3>
-              <div class="item">
-                <a href="https://arvok98.github.io/quiz-app/" target="_top">
-                  <img src="images/p3.png" alt="Quiz App Project">
-                </a>
-                <p>
-                  <a href="https://arvok98.github.io/quiz-app/" target="_top">
-                    Responsive website design and coding based on jQuery, Java Script library.
-                  </a>
-                </p>
-              </div>
-            </section>
-          </div>
-        </section>
-          
-        <section id="location" class="bg-primary">
-          <!-- Location Content Here -->
-          <h2>Location</h2>
-          <div class="group">
-            <div class="item">
-              <p id="locationText">
-                I live in Glendale, California.
-              </p>
-            </div>
-            <div class="item-double">
-              <div class="mapouter">
-                <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=los%20angeles&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="contact">
-          <!-- Contact Content Here -->
-          <h2>Contact</h2>
-          <div id="social">
-            <p class="text topText">
-              You can contact me using the folling websites.
-            </p>
-            <ul class="contactInfo">
-              <li class="icon">
-                <a href="mailto:geghard1990@gmail.com?Subject=Call%20Back%20Information" target="_blank">
-                  <img src="images/icon-email.png" alt="E-mail Icon">
-                </a>
-              </li>
-              <li class="icon">
-                <a href="https://github.com/Geghard" target="_blank">
-                  <img src="images/icon-github.png" alt="Github Icon">
-                </a>
-              </li>
-              <li class="icon">
-                <a href="https://www.linkedin.com/in/geghard-simonian-81521b2a/" target="_blank">
-                  <img src="images/icon-linkedin.png" alt="Linkedin Icon">
-                </a>
-              </li>
-            </ul><!--Contact Icons-->
-          </div><!--div contact section-->
-        </section>
-        <section id="contact2" class="bg-primary">
-          <h2>Contact2</h2>
-          <form action="https://formspree.io/f/xpzopbqk" method="POST">
-            <label>
-              Your email:<br>
-              <input type="text" name="_replyto" placeholder="email">
-            </label>
-            <label>
-              Your Name:<br>
-              <input type="text" name="name" placeholder="name">
-            </label>
-            <label>
-              Your message:<br>
-              <textarea name="message" id="message" placeholder="message"></textarea>
-            </label>
-            <br>
-            <button type="submit">Send</button>
-          </form>
-        </section>
-      </section>
-      <footer>
-        <p>	
-          &copy;Made by Geghard Simonian on October, 2020.
+      <div class="myImageDiv">
+        <div class="backImage">
+          <p>Geghard <br> 	&nbsp;	Simonian</p>
+          <h3>Web Developer</h3>
+          <img class="myImage" src="images/my-image.jpg" alt="My Image">
+        </div><!--Back Image-->
+      </div><!--myImageDiv-->
+      <div class="buttons">
+        <a href="#wrapper" class="btn introSnd">
+          Introduction
+        </a>
+        <a href="#topLine" class="btn aboutSnd">
+          About
+        </a>
+        <a href="#bottomLine" class="btn contactSnd">
+          Contact
+        </a>
+      </div><!--div Buttons second-->
+      <article>
+        <h1>Introduction</h1>
+        <h2>Hello there, I'm Geghard Simonian</h2>
+        <p>
+          I'm a web developer and I live in Glendale, California.
         </p>
-      </footer>
-    </main>
+        <p>
+          You can find my contact information on contact section.
+        </p>
+      </article>
+      <hr id="topLine">
+      <article>
+        <h1>About Me</h1>
+        <p>
+          My passion for coding stared when I was a teenager and as I had to choose my major it was clear to me what shall I choose. Even though my current major is computer information, I’m looking forward to advancing my previous knowledge and advance it toward a sustainable career.
+        </p>
+        <p>Some of the reasons why I chose to be in this field of work.
+        </p>
+        <ol>
+          <li>I enjoy teamwork and I believe you are most effective as a coder when you get support from your teammates.</li>
+          <li>I love creativity, which I believe is the most basic requirement for a web developer.</li>
+          <li>I would like to have a career, which I would enjoy and not get bored with.</li>
+        </ol>
+        <p>
+          I’m hoping that Thinkful will help me to gain the knowledge, but also necessary skills to work as a web developer.
+        </p>
+        <p>
+          My hobbies are playing guitar (which I learned recently) and I listening to music.
+        </p>
+      </article><!--about section-->
+      <div class="buttons">
+        <a href="#wrapper" class="btn introTrd">
+          Introduction
+        </a>
+        <a href="#topLine" class="btn aboutTrd">
+          About
+        </a>
+        <a href="#bottomLine" class="btn contactTrd">
+          Contact
+        </a>
+      </div><!--div Buttons third-->
+      <hr id="bottomLine">
+      <div>
+        <p class="text topText">
+          You can contact me using the folling websites.
+        </p>
+        <ul class="contactInfo">
+          <li class="icon">
+            <a href="mailto:example@gmail.com?Subject=Call%20Back%20Information" target="_blank">
+              <img src="images/icon-email.png" alt="E-mail Icon">
+            </a>
+          </li>
+          <li class="icon">
+            <a href="https://github.com/Geghard" target="_blank">
+              <img src="images/icon-github.png" alt="Github Icon">
+            </a>
+          </li>
+          <li class="icon">
+            <a href="https://www.linkedin.com/in/geghard-simonian-81521b2a/" target="_blank">
+              <img src="images/icon-linkedin.png" alt="Linkedin Icon">
+            </a>
+          </li>
+        </ul><!--Contact Icons-->
+        <p class="text buttomText">
+          You can also follow me on my social media accounts.
+        </p>
+        <ul class="social">
+          <li class="icon">
+            <a href="pages/404.html" target="_top">
+              <img src="images/icon-youtube.png" alt="YouTube Icon">
+            </a>
+          </li>
+          <li class="icon">
+            <a href="pages/404.html" target="_top">
+              <img src="images/icon-fb.png" alt="Facebook Icon">
+            </a>
+          </li>
+          <li class="icon">
+            <a href="pages/404.html" target="_top">
+              <img src="images/icon-twitter.png" alt="Twitter Icon">
+            </a>
+          </li>
+        </ul><!--Social Icons-->
+      </div><!--div contact section-->
+    </main><!--wrapper-->
+    <footer>
+      <p>	&copy;Made by Geghard Simonian on Augest, 2020.
+      </p>
+    </footer>
+    <script src="script.js"></script>
   </body>
-</html> 
+</html>
